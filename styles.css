@@ -1,0 +1,52 @@
+#main {
+    font-family: Georgia, serif;
+    margin: 2rem;
+    padding: 10px 10px 10px 10px;
+    background-color: aquamarine;
+    color: #4b4b4c;
+    text-align: center;
+}
+
+#title {
+    color: #131313;
+}
+
+#main h1 {
+    background-color: beige;
+    border: 5px solid #4b4b4c;
+    font-style: italic;
+    padding: 3rem;
+}
+
+#img-div {
+    background-color: beige;
+    margin: 0 auto 0 auto;
+    max-width: 600px;
+}
+
+#img-caption {
+    font-size: 15px;
+}
+
+#tribute-info {
+    background-color: beige;
+    margin: 0 auto 50px auto;
+    padding: 2rem;
+    font-size: 1rem;
+    text-align: justify;
+
+
+    max-width: 536px;
+    line-height: 1.6;
+}
+
+#tribute-link {
+    margin-top: 20px;
+}
+
+
+@media screen and (max-width: 640px) {
+    #tribute-info {
+        padding: 4rem;
+    }
+}
