@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title> Customer Survey Form</title>
+    <link rel="stylesheet" href="styles.css">
+    <h1 id="title">Customer Survey Form</h1>
+    <p id="description">Please fill out the form! <br> Thanks for your time!</p>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&family=Roboto+Slab:wght@300;400&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+    <form id="survey form" action="/">
+            <label id="name-label" for="/">What's your first name</label><br>
+            <input class="class1" id="name" type="text" placeholder="X Æ A-Xii">
+
+            <br><br>
+
+            <label for="/">What's your last name?</label><br>
+            <input class="class1" type="text" placeholder="Musk">
+
+            <br><br>
+
+            <label id="email-label" for="/">Enter your email:</label><br>
+            <input class="class1" id="email" type="email" placeholder="johndoe@gmail.com">
+
+            <br><br>
+
+            <label id="number-label" for="/">Enter your phone number:</label><br>
+            <input class="class1" id="number" type="tel" placeholder="123-456-7890" pattern="[1-9]{3},[0-9]{3},[0-9]{4}" required>
+
+            <br><br>
+
+            <label for="/">What's your age?</label><br>
+            <input class="class1" type="number" min="5" max="120" class="form-control">
+
+            <br><br>
+            
+            <label id="dropdown" for="/">What's your occupation?</label><br>
+            <select class="class1" name="/">
+                <option disabled selected value>Select</option>
+                <option value="/">Student</option>
+                <option value="/">Employed</option>
+                <option value="/">Unemployed</option>
+                <option value="/">Retired</option>
+            </select>
+
+            <br><br><br>
+            
+            <label for="">When have you started coding?</label>
+            
+            <br><br>
+
+            
+            <input type="radio" name="radio" for="/" value="no" >
+            <label>I haven't started yet</label><br>
+            
+            <input type="radio" name="radio" for="/" value="month"> 
+            <label>This month</label><br>
+
+            <input type="radio"name="radio" for="/" value="months"> 
+            <label>3 months ago</label><br>
+            
+            <input type="radio"name="radio" for="/" value="year">
+            <label>1 year ago</label><br>
+
+            <input type="radio"name="radio" for="/" value="years">
+            <label> 3 years ago</label>
+
+            <br><br><br>
+
+            <label for="">What languages do you know?</label><br><br>
+            <input type="checkbox" value="python">
+            <label for="">Python</label><br>
+            <input type="checkbox" value="js">
+            <label for="">JavaScript</label><br>
+            <input type="checkbox" value="c">
+            <label for="">C / C++</label><br>
+            <input type="checkbox" value="csharp">
+            <label for="">C Sharp</label><br>
+            <input type="checkbox" value="ruby">
+            <label for="">Ruby</label><br>                                                                                                                                                                                                                                                                                      
+            <input type="checkbox" value="go">
+            <label for="">Go</label><br>
+            <input type="checkbox" value="other">
+            <label for="">Other</label>
+
+            <br><br><br>
+
+            <label for="">Comments</label><br>
+            <textarea name="" cols="50" rows="5" 
+            placeholder="Enter your comment here"></textarea>
+
+            <br><br><br>
+
+            <input id="submit" type="submit" value="submit">
+    </form>
+    </div>
+</body>
+</html>
